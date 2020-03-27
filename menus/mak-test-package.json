@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle mak-test-package",
+        "command": "mak-test-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "mak-test-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "mak-test-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
