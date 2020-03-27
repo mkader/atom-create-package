@@ -1,14 +1,14 @@
 {
   "name": "mak-test-package",
   "main": "./lib/mak-test-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "mak-test-package:toggle"
   },
-  "repository": "https://github.com/atom/mak-test-package",
+  "repository": "https://github.com/mkader/atom-create-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
